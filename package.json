@@ -8,8 +8,22 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.2.3",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "email-validator": "^2.0.4",
+    "emoji-mart": "^3.0.1",
+    "firebase": "^8.6.8",
+    "firebase-admin": "^9.9.0",
+    "lodash": "^4.17.21",
+    "mic-recorder-to-mp3": "^2.2.2",
+    "moment": "^2.29.1",
+    "next": "^10.2.3",
+    "next-firebase-auth": "^0.13.1",
+    "password-validator": "^5.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-firebase-hooks": "^3.0.4",
+    "react-linkify": "^1.0.0-alpha",
+    "react-player": "^2.9.0",
+    "react-progressive-image": "^0.6.0",
+    "three": "^0.131.1"
   }
 }

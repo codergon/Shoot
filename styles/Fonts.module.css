@@ -1,0 +1,51 @@
+@font-face {
+  src: url(../public/fonts/Hoover_Complete/Fonts/OTF/Hoover-Regular.otf);
+  font-family: hoover;
+}
+
+@font-face {
+  src: url(../public/fonts/Zina_Complete/Fonts/OTF/Zina-Regular.otf);
+  font-family: zina;
+}
+
+@font-face {
+  src: url(../public/fonts/Segment_Complete/Fonts/OTF/Segment-Regular.otf);
+  font-family: segment;
+}
+
+@font-face {
+  src: url(../public/fonts/Nippo_Complete/Fonts/OTF/Nippo-Regular.otf);
+  font-family: nippo;
+}
+
+@font-face {
+  src: url(../public/fonts/Sinistre/desktop/Sinistre-SΓÇáCaroline.otf);
+  font-family: sinistre;
+}
+
+@font-face {
+  src: url(../public/fonts/roc-grotesk.otf);
+  font-family: roc_grotesk;
+}
+
+@font-face {
+  src: url(../public/fonts/BespokeStencil-Medium.otf);
+  font-family: bespoke;
+}
+
+@font-face {
+  src: url(../public/fonts/Author-Light.otf);
+  font-family: author1;
+}
+@font-face {
+  src: url(../public/fonts/Author-Regular.otf);
+  font-family: author2;
+}
+@font-face {
+  src: url(../public/fonts/Author-Medium.otf);
+  font-family: author3;
+}
+@font-face {
+  src: url(../public/fonts/Author-Semibold.otf);
+  font-family: author4;
+}

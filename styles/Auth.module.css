@@ -1,0 +1,233 @@
+.back_grad {
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+}
+.back_grd1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  filter: blur(110px);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.back_grd2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  background-size: auto;
+  background-repeat: repeat;
+  mix-blend-mode: overlay;
+  opacity: 0.5;
+}
+
+/* Main Page Content */
+.coverAll {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+}
+
+/* Side Deco */
+.sideDeco {
+  width: 0vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+.login_container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  flex-direction: column;
+  position: relative;
+}
+
+@media screen and (min-width: 850px) {
+  .sideDeco {
+    width: 50vw;
+    height: 100vh;
+  }
+  .login_container {
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+    position: relative;
+  }
+}
+
+.log_cont_inn {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logHead {
+  display: flex;
+  margin: 0px 0px 50px;
+  flex-direction: row;
+  align-items: center;
+}
+.logLogo {
+  color: #333;
+  font-size: 22px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  letter-spacing: 0.03rem;
+  font-family: bespoke;
+  flex-direction: row;
+  text-transform: uppercase;
+  justify-content: center;
+}
+.logLogo i {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  color: #eee;
+  border-radius: 100%;
+  font-size: 17px;
+  background: #222;
+  align-items: center;
+  margin: 0px 0.08rem;
+  justify-content: center;
+}
+
+.login_sect {
+  width: 280px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+.log_em {
+  display: flex;
+  flex-direction: column;
+}
+.log_pass_cont,
+.log_email_cont {
+  width: 100%;
+  color: #555;
+  display: flex;
+  margin: 10px 0px;
+  align-items: center;
+  flex-direction: row;
+  border-bottom: 1px solid #bbb;
+}
+.log_pass_cont i,
+.log_email_cont i {
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.log_email,
+.log_pass {
+  color: #333;
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 10px 0px;
+  font-family: author2;
+  background: transparent;
+}
+.log_email::placeholder,
+.log_pass::placeholder {
+  font-size: 16px;
+  color: #555;
+}
+
+.warn_email,
+.warn_pass {
+  color: #c94f08;
+  font-size: 12px;
+  font-family: author3;
+}
+
+.log_butt {
+  width: 100%;
+  color: #eee;
+  display: flex;
+  font-size: 16px;
+  margin: 20px 0px 10px;
+  border-radius: 5px;
+  font-family: author2;
+  background: #222;
+  border: 1px solid #333;
+  letter-spacing: 0.03rem;
+  cursor: pointer;
+  /* text-transform: uppercase; */
+  padding: 12px 0px 12px 20px;
+}
+
+.log_oth {
+  display: flex;
+  flex-direction: column;
+}
+.log_goog,
+.log_twi {
+  width: 100%;
+  color: #222;
+  display: flex;
+  cursor: pointer;
+  margin: 10px 0px;
+  border-radius: 5px;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid #333;
+  letter-spacing: 0.03rem;
+  background: transparent;
+}
+.log_goog i {
+  margin: 0px 17px 0px 17px;
+}
+.log_twi i {
+  font-size: 18px;
+  margin: 0px 14px 0px 17px;
+}
+.log_goog p,
+.log_twi p {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 15px 0px;
+  text-align: start;
+  font-family: author2;
+  background: transparent;
+}
+
+.priv_pol {
+  width: 100%;
+  display: flex;
+  font-size: 0.8rem;
+  color: #777;
+  bottom: 10px;
+  padding: 0px 30px;
+  flex-direction: row;
+  align-items: center;
+  font-family: author3;
+  margin: 50px 0px 0px;
+  position: absolute;
+  justify-content: space-between;
+}

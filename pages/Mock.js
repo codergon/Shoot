@@ -1,0 +1,61 @@
+export const mockData = [
+  {
+    key: "1",
+    user_status: true,
+    username: "Williams",
+    wallpaper: "img/upload-61481d53-1c8f-49b1-af43-133fd0f3893e.jpg",
+    user_ppic: "img/ba399de5-dfceb-1596569861lcp48.jpg",
+  },
+  {
+    key: "2",
+    user_status: true,
+    username: "Yaksheena Tariq",
+    user_ppic: "img/3a433b89d2.jpg",
+    shd_imgs: [
+      "img/vine-ramazani-MRW40FzUASE-unsplash.jpg",
+      "img/tumblr_p5933jj6bI1wbdiu1o1_640.jpg",
+      "img/AC_IN_337.jpg",
+      "img/5760bca608d2905d5c1ce7688e232d7d.jpg",
+      "img/sportwear1.png",
+      "img/finey.jpg",
+      "img/tumblr_pcjs5uFemi1s7h3f7o1_1280.jpg",
+      "img/Paco-earrings.jpg",
+      "img/tumblr_p5933jj6bI1wbdiu1o1_640.jpg",
+      "img/AC_IN_337.jpg",
+      "img/5760bca608d2905d5c1ce7688e232d7d.jpg",
+      "img/sportwear1.png",
+      "img/finey.jpg",
+      "img/tumblr_pcjs5uFemi1s7h3f7o1_1280.jpg",
+    ],
+  },
+];
+
+export const contacts = [
+  {
+    key: "1",
+    unRead: 0,
+    user_status: true,
+    timeSent: "2:40 pm",
+    username: "Yaksheena Tariq",
+    user_ppic: "img/3a433b89d2.jpg",
+    lastMssg: "Hi! how have you been?",
+  },
+  {
+    key: "2",
+    unRead: 4,
+    user_status: false,
+    timeSent: "12:40 pm",
+    username: "Carter",
+    user_ppic: "img/baea7d2229c8c6fd735ad9ddabf44a0e-removebg-preview2.png",
+    lastMssg: "I just the files. Go ahead with the transaction",
+  },
+  {
+    key: "3",
+    unRead: 2,
+    user_status: false,
+    timeSent: "9:40 am",
+    username: "Adeyeni Faith",
+    user_ppic: "img/tumblr_pfd4modHw71waeozqo1_1280.jpg",
+    lastMssg: "When are you planning to send the files?",
+  },
+];
