@@ -1,5 +1,4 @@
 import sty from "../../styles/Chat.module.css";
-import { contacts } from "../Mock";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useCollection } from "react-firebase-hooks/firestore";
 import { auth, db } from "../../firebase";
